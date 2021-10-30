@@ -1,0 +1,355 @@
+
+html{
+  box-sizing:border-box;
+  font-size: 10px;
+}
+
+*,*::before,*::after{
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+  margin:0 ;
+  padding: 0;
+  /* margin-left:auto ;
+  margin-right:auto ; */
+  background-color: #edf2c5;
+  
+}
+.bodycontaioner{
+  width: 1260px;
+  height: 940px;
+}
+.container{
+  width: 940px;
+  height: 880px;
+  margin:0px 160px;
+
+}
+header{
+  display:flex;
+  margin-top: 36px;
+  /* margin-bottom: 0px; */
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.title{
+    width: 271px;
+    height: 55px;
+    margin-bottom: 0px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+ 
+  .social{
+    display:flex;
+    margin-left:469px;
+    justify-content: flex-end;
+    margin-bottom: 17px;  
+  }
+  .social1,.social2,.loginbox,.Joinbox,.line{
+    margin-right: 10px;
+  }
+  .line{
+    width: 1px;
+    height: 25px;
+    /* margin: 0 5px ; */
+    background-color: #778a50;
+  }
+ 
+  
+
+  .loginjoin{
+    display:flex;
+  }
+  
+  .loginbox{
+    display:flex;
+    width: 60px;
+  height: 25px;
+  /* margin: 0 10px 18px;
+  padding: 5px 7px; */
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #778a50;
+  }
+  .LOGIN {
+    width: 46px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+  .LOGIN:hover{
+    background-color:#778a50 ;
+    color:#edf2c5;
+   
+}
+  .joinbox{
+    display:flex;
+    width: 49px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 0 18px 10px;
+  padding: 5px 7px; */
+  border: solid 1px #778a50;
+  }
+  .JOIN:hover{
+    background-color:#778a50 ;
+    color:#edf2c5;
+}
+
+a {
+  text-decoration:none;
+}
+  .nav_box {
+    width: 940px;
+    height: 44px;
+    margin: 0px 0 20px;
+    /* padding: 10px 316px 11px 30px; */
+    border-radius: 3px;
+    background-color: #778a50;
+
+  }
+  .Home {
+    width: 51px;
+    height: 23px;
+    margin: 16px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  .About-Us {
+    width: 80px;
+    height: 23px;
+    margin: 16px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  .Vegetable{
+    width: 98px;
+    height: 23px;
+    margin: 16px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  .Online {
+    width: 56px;
+    height: 23px;
+    margin: 16px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  .Contact {
+    width: 69px;
+    height: 23px;
+    margin: 16px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  .vegcont{
+    display:flex;
+  }
+  .body_box_vegetables {
+    width: 444px;
+    height: 45px;
+    margin-top:30px;
+    margin-right: 52px;
+    
+    border-radius: 3px;
+    background-color: #778a50;
+  }
+  .body_box_contact {
+    width: 444px;
+    height: 45px;
+    margin-top:30px;
+    border-radius: 3px;
+    background-color: #778a50;
+  }
+  .Vegetable2 {
+    width: 98px;
+    height: 23px;
+    /* padding:10px,316px,12px,30px; */
+    margin-top:15px ;
+    margin-right:316px ;
+    margin-left:30px ;
+   
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  
+  .Contact2 {
+    width: 98px;
+    height: 23px;
+    width: 98px;
+    height: 23px;
+   
+    margin-top:15px ;
+    margin-right:316px ;
+    margin-left:30px ;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
+  
+  .maincontnent{
+    display:flex;
+  }
+  img.img_vegetables_pepper {
+    width: 140px;
+    height: 140px;
+    margin: 15px 12px 0 0;
+    object-fit: contain;
+  }
+  img.img_vegetables_carrot {
+    width: 140px;
+    height: 140px;
+    margin: 15px 6px 0;
+    object-fit: contain;
+  }
+img.img_vegetables_corn {
+  width: 140px;
+  height: 140px;
+  /* margin: 15px 52px 0 12px; */
+  margin: 15px 0;
+  object-fit: contain;
+}
+
+ 
+.body_box_contact2 {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  height: 140px;
+  margin: 15px 0 ;
+  padding: 15px;
+  justify-content: center;
+
+/*  
+  padding: 15px; */ 
+  margin-left: 52px  ;
+  background-color: #f7fbda;
+}
+
+.line2 {
+  width: 414px;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #7d7d7d;
+}
+.content2 {
+  width: 197px;
+  height: 35px;
+  
+  margin: 15px 217px 0 10;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.content1{
+  width: 414px;
+  height: 44px;
+  /* margin: 0 0 15px; */
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.box_footer {
+  display:flex;
+  width: 1260px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #778a50;
+}
+.Copyright{
+  width: 301px;
+  height: 14px;
+
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
